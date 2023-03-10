@@ -1,11 +1,12 @@
 name: zybooks-grader
+channels:
+  - conda-forge
 dependencies:
-  - python>=3.10
-  - anaconda
+  - python
   - pip
   - fastapi
   - pydantic
   - uvicorn
+  - sqlite
   - pip:
     - -r file:requirements.txt
-
