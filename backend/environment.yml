@@ -1,0 +1,11 @@
+name: zybooks-grader
+dependencies:
+  - python>=3.10
+  - anaconda
+  - pip
+  - fastapi
+  - pydantic
+  - uvicorn
+  - pip:
+    - -r file:requirements.txt
+
