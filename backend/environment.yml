@@ -1,9 +1,9 @@
 name: zybooks-grader
 channels:
+  - anaconda
   - conda-forge
 dependencies:
   - python
-  - anaconda
   - pip
   - fastapi
   - pydantic
